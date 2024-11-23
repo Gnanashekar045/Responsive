@@ -1,1 +1,25 @@
 import React, { useState } from "react";
+
+const Hoccomponet = (Ourcomponent) => {
+  const Newcomponent = () => {
+    const [cout, setcout] = useState(0);
+
+    const handleIncrement = () => {
+      setcout(cout + 1);
+    };
+
+    const handleDecreament = () => {
+      setcout(cout - 1);
+    };
+
+    return (
+      <Ourcomponent
+        handleIncrement={handleIncrement}
+        handleDecreament={handleDecreament}
+        cout={cout}
+      />
+    );
+  };
+
+  return Newcomponent;
+};
