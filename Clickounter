@@ -11,3 +11,6 @@ const Clickcounter = ({handleIncrement, handleDecreament, cout}) => {
         </div>
     )
 }
+
+
+export default Hoccomponet(Clickcounter)
