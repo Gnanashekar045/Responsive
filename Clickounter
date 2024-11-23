@@ -1,3 +1,13 @@
 import React from "react"
 
 import Hoccomponet from "./Hoccomponent"
+
+const Clickcounter = ({handleIncrement, handleDecreament, cout}) => {
+    return (
+        <div>
+        <button onClick={handleIncrement}>Increase</button>
+        <button onClick={handleDecreament}>Decrese</button>
+        <h2>you have clicked {cout} times</h2>
+        </div>
+    )
+}
