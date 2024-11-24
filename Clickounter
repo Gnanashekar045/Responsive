@@ -1,5 +1,5 @@
 import React from "react"
-
+//Clickcounterr//
 import Hoccomponet from "./Hoccomponent"
 
 const Clickcounter = ({handleIncrement, handleDecreament, cout}) => {
