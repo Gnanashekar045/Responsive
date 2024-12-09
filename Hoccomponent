@@ -22,7 +22,6 @@ const Hoccomponet = (Ourcomponent) => {
   };
 
   return Newcomponent;
-//
 };
 
 export default Hoccomponet;
