@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//* Component*//
+//*Component*//
 const Hoccomponet = (Ourcomponent) => {
   const Newcomponent = () => {
     const [cout, setcout] = useState(0);
